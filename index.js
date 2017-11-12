@@ -25,7 +25,7 @@ class BoardMember {
     return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`;
   }
 
-  class CEO extends BoardMember {
+  class Ceo extends BoardMember {
     super.sayHi()
     
   }
