@@ -24,13 +24,10 @@ class BoardMember {
   sayHi() {
     return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`;
   }
-}
- 
 
-class CEO extends BoardMember {
-  hireEmployee(){
-    return "Welcome aboard!";
+  class CEO extends BoardMember {
+    hireEmployee(){
+      return "Welcome aboard!";
+    }
   }
 }
-
-
